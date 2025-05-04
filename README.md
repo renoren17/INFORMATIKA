@@ -15,4 +15,4 @@ Mulai dari variabel, tipe data, operator, sampai komentar.
 - Maaf kalau salah 
 ---
 
-> "You know, you know where you are with..."
+> "Kalau anda gabisa ya apalagi saya..."
