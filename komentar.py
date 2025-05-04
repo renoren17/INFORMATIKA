@@ -3,7 +3,7 @@
 """
 Ini komentar
 lebih dari satu baris
-biasanya dipakai untuk dokumentasi
+biasanya dipakai untuk dokumentasiii
 """
 
 # Komentar digunakan untuk menjelaskan kode agar mudah dipahami orang lain
