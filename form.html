@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<link rel="stylesheet" href="../css/index.css">
+ 
+<body class="form-page">
+
+    <h1>Buat Account Baru</h1>
+    <h2>Sign Up Form</h2>
+
+    <form action="welcome.html" method="get">
+        <label for="fn">First Name:</label><br>
+        <input type="text" name="fn" required>
+        <br><br>
+
+        <label for="ln">Last Name</label><br>
+        <input type="text" name="ln" required>
+        <br><br>
+
+        <label for="gd">Gender</label><br>
+        <input type="radio" name="gd" value="Male"> Male <br>
+        <input type="radio" name="gd" value="Female"> Female
+        <br><br>
+
+        <label for="nt">Nationality</label><br>
+        <select name="nt" required>
+            <option value="ind">Indonesia</option>
+            <option value="amk">Amerika</option>
+            <option value="ing">Inggris</option>
+        </select>
+        <br><br>
+
+        <label for="lg">Language Spoken </label><br>
+        <input type="checkbox" name="lg" value="ind"> Bahasa Indonesia <br>
+        <input type="checkbox" name="lg" value="eng"> English <br>
+        <input type="checkbox" name="lg" value="oth"> Other <br>
+        <br>
+
+        <label for="bio">Bio</label><br>
+        <textarea name="bio" cols="30" rows="10"></textarea><br>
+
+        <button type="submit">Sign Up</button>
+    </form>
+
+</body>
+</html>
